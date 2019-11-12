@@ -10,7 +10,7 @@ public class RegisterAction extends ActionSupport {
 
     @Override
     public String execute() {
-        person = new Person();
+//        person = new Person();
         return SUCCESS;
     }
     @Override

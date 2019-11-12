@@ -10,7 +10,6 @@ public class HelloWorldAction extends ActionSupport {
 
     public String execute() {
         messageStore = new MessageStore(userName) ;
-        
         return "success";
     }
 

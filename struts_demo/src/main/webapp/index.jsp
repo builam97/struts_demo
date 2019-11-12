@@ -36,7 +36,10 @@
 	</s:url>
 	<s:a href="%{demo1_url}">Demo 1</s:a>
 	<p>
-		<a href="register.jsp">Register</a>
+		<s:url var="register_url" action="registerInput">
+			<s:param name="register_url"></s:param>
+		</s:url>
+		<s:a href="%{register_url}">register plesae</s:a>
 	</p>
 </body>
 </html>

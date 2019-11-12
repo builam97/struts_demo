@@ -10,11 +10,11 @@
 <body>
  <h3>Register for a prize by completing this form.</h3>
 
-    <s:form action="register">
-      <s:textfield name="person.firstName" label="First name" />
-      <s:textfield name="person.lastName" label="Last name" />
-      <s:textfield name="person.email"  label ="Email"/>  
-      <s:textfield name="person.age"  label="Age"  />
+    <s:form action="register" method="POST">
+      <s:textfield key="person.firstName"  name="person.firstName"/>
+      <s:textfield key="person.lastName"  name="person.lastName"/>
+      <s:textfield key="person.email"  name="person.email"/>
+      <s:textfield key="person.age" name="person.age" />
       <s:submit/>
     </s:form>
 </body>
