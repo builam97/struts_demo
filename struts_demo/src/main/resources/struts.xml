@@ -36,7 +36,18 @@
 			<result name="success">/thankyou.jsp</result>
 			<result name="input">/thankyou.jsp</result>
 		</action>
-
+		
+		<action name="order" class="struts_demo.controller.OrderVatTuAction" method="execute">
+			<result name="success">/OderVatTu.jsp</result>
+		</action>
+		<action name="login" class="struts_demo.controller.Login" method="execute">
+			<result name="success">/Login.jsp</result>
+			<result name="error">/Error.jsp</result>
+		</action>
+		<action name="loginInput" class="struts_demo.controller.LoginAction" method="execute">
+			<result name="success">/thankyou.jsp</result>
+			<result name="error">/Error.jsp</result>
+		</action>
 	</package>
 	<package name="default" namespace="/" extends="struts-default">
 		<action name="locale"

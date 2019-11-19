@@ -41,5 +41,11 @@
 		</s:url>
 		<s:a href="%{register_url}">register plesae</s:a>
 	</p>
+	<p>
+		<a href="<s:url action='order'/>">Order</a>
+	</p>
+	<p>
+		<a href="<s:url action='login'/>">Login</a>
+	</p>
 </body>
 </html>

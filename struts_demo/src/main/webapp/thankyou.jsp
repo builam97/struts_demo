@@ -9,8 +9,6 @@
   <body>
     <h3><s:text name="thankyou" /></h3>
 
-    <p>Your registration information: <s:property value="person" /> </p>
-
     <p><a href="<s:url action='index' />" >Return to home page</a>.</p>
   </body>
 </html>
